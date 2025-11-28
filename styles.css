@@ -1,2 +1,75 @@
 
 /* Your CSS Code here. */
+/* Main container styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f7f5;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0;
+}
+
+.container {
+    width: 450px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+header p {
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.checkbox-label {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    background: #2d8a5f;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background: #226c49;
+}
